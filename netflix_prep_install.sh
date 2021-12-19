@@ -8,7 +8,7 @@ sudo locale-gen en_US.UTF-8
 #Tell ncurses to use line characters that work with UTF-8.
 export NCURSES_NO_UTF8_ACS=1
 
-cd /home/osmc || exit
+cd /home/kodi || exit
 # Map parameters to coder-friendly names.
 Program="kodi"
 version="19"
