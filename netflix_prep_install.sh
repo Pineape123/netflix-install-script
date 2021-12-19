@@ -8,7 +8,7 @@ sudo locale-gen en_US.UTF-8
 #Tell ncurses to use line characters that work with UTF-8.
 export NCURSES_NO_UTF8_ACS=1
 
-cd /home/kodi || exit
+cd .kodi || exit
 # Map parameters to coder-friendly names.
 Program="kodi"
 version="19"
@@ -35,7 +35,7 @@ else
    sudo apt-get install python3-crypto python3-pycryptodome python3-pip
 fi
 
-if [ ! -d "/home/kodi/addons" ]; then
+if [ ! -d "/home/.kodi/addons" ]; then
 	mkdir addons
 fi
 cd addons || exit
