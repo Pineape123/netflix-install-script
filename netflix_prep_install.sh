@@ -35,7 +35,7 @@ else
    sudo apt-get install python3-crypto python3-pycryptodome python3-pip
 fi
 
-if [ ! -d "/home/osmc/addons" ]; then
+if [ ! -d "/home/kodi/addons" ]; then
 	mkdir addons
 fi
 cd addons || exit
