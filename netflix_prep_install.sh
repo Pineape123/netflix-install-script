@@ -72,7 +72,7 @@ fi
 sudo systemctl stop mediacenter
 sleep 5
 dialog --title "Installation finished!" --msgbox "\nThank you for using my installer\nNow go to addon-browser and choose install from zip\nNavigate to homefolder/addons and install Netflix repository." 11 70
-if [ -f "/home/osmc/netflix_prep_install.sh" ]; then
+if [ -f ".kodi/netflix_prep_install.sh" ]; then
 	rm /home/osmc/netflix_prep_install.sh
 fi
 sudo systemctl start mediacenter
